@@ -1,0 +1,25 @@
+{
+  "name": "MeatTracker",
+  "version": "1.0.0",
+  "description": "Blockchain meat tracking Powered By Ethereum",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && sexit 1"
+  },
+  "author": "luksssss",
+  "license": "",
+  "devDependencies": {
+    "bootstrap": "",
+    "chai": "",
+    "chai-as-promised": "",
+    "chai-bignumber": "",
+    "lite-server": "",
+    "nodemon": "",
+    "truffle": "",
+    "truffle-contract": ""
+  }
+}
