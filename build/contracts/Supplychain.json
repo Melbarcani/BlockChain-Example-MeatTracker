@@ -1,0 +1,212 @@
+{
+  "contractName": "Supplychain",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "CreateSupplychain",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"CreateSupplychain\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatSupplyChain/Supplychain.sol\":\"Supplychain\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatSupplyChain/Supplychain.sol\":{\"keccak256\":\"0x1420d37586ac654082f777ac481c72e4b723fee546d7afa3ffd97da0e7742dbb\",\"urls\":[\"bzz-raw://3c49bda6b089bd0019f0e4741ce4bc0f9e7c9ede764e05c0b6243967c2edf4b8\",\"dweb:/ipfs/QmPZEy6HkzdK9MvRN6xnwYTBeHztzfmJ8MemkJKQBstGrG\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50606c80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063efc657ef14602d575b600080fd5b60336035565b005b56fea265627a7a72315820c0cb5590fb8aaf73cf2068a1250c8b9a22edfed8f77388543ce043fbdb7a116b64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063efc657ef14602d575b600080fd5b60336035565b005b56fea265627a7a72315820c0cb5590fb8aaf73cf2068a1250c8b9a22edfed8f77388543ce043fbdb7a116b64736f6c63430005100032",
+  "sourceMap": "26:71:8:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:71:8;;;;;;;",
+  "deployedSourceMap": "26:71:8:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:71:8;;;;;;;;;;;;;;;;;;;53:42;;;:::i;:::-;;;:::o",
+  "source": "pragma solidity ^0.5.16;\n\ncontract Supplychain {\n    function CreateSupplychain()public{\n\n    }\n}\n",
+  "sourcePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatSupplyChain/Supplychain.sol",
+  "ast": {
+    "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatSupplyChain/Supplychain.sol",
+    "exportedSymbols": {
+      "Supplychain": [
+        103
+      ]
+    },
+    "id": 104,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 98,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:8"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 103,
+        "linearizedBaseContracts": [
+          103
+        ],
+        "name": "Supplychain",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 101,
+              "nodeType": "Block",
+              "src": "87:8:8",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 102,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "CreateSupplychain",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 99,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "79:2:8"
+            },
+            "returnParameters": {
+              "id": 100,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "87:0:8"
+            },
+            "scope": 103,
+            "src": "53:42:8",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 104,
+        "src": "26:71:8"
+      }
+    ],
+    "src": "0:98:8"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatSupplyChain/Supplychain.sol",
+      "exportedSymbols": {
+        "Supplychain": [
+          103
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".16"
+          ]
+        },
+        "id": 98,
+        "name": "PragmaDirective",
+        "src": "0:24:8"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            103
+          ],
+          "name": "Supplychain",
+          "scope": 104
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "CreateSupplychain",
+              "scope": 103,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 99,
+                "name": "ParameterList",
+                "src": "79:2:8"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 100,
+                "name": "ParameterList",
+                "src": "87:0:8"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 101,
+                "name": "Block",
+                "src": "87:8:8"
+              }
+            ],
+            "id": 102,
+            "name": "FunctionDefinition",
+            "src": "53:42:8"
+          }
+        ],
+        "id": 103,
+        "name": "ContractDefinition",
+        "src": "26:71:8"
+      }
+    ],
+    "id": 104,
+    "name": "SourceUnit",
+    "src": "0:98:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-11-14T19:35:23.385Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

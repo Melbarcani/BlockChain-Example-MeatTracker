@@ -1,0 +1,597 @@
+{
+  "contractName": "AccessControl",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "CreateConsumerRole",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "CreateDelivererRole",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "CreateFarmerRole",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "CreateRetailerRole",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "CreateSlaughterhouseRole",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":false,\"inputs\":[],\"name\":\"CreateConsumerRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"CreateDelivererRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"CreateFarmerRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"CreateRetailerRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"CreateSlaughterhouseRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/AccessControl.sol\":\"AccessControl\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/AccessControl.sol\":{\"keccak256\":\"0x0ffbef5ee0a3dc2197f5f640b805de20369d64b95c5a6d796abf674bf7eec5a4\",\"urls\":[\"bzz-raw://d0d8f341d3dff0f5b1e5f96102eacb2e5b9575ee739dd33c9a228ad7296cb90c\",\"dweb:/ipfs/QmV2gv8Nht3dwjsxHJfV6wsUwWxyvw9ab2d8kYCHkimRQ9\"]},\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/ConsumerRole.sol\":{\"keccak256\":\"0x2d792e51e1cef4771b49b12e26fc82759fd2b0311ed5bc0f82965d58260df8c5\",\"urls\":[\"bzz-raw://d2edf0afacc9e8d9cde61eedbc45ee67cd7954a2b6c52aa7b2a6f160c84b8df7\",\"dweb:/ipfs/QmTr7DGv8mZsAxtgPF2NKr1pU1fGRS2DBE7v1r81XA5U2a\"]},\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/DelivererRole.sol\":{\"keccak256\":\"0x5fa0211f8e3911e81d0ada054b1c6c6726e40f992a53ac978453966cd4507024\",\"urls\":[\"bzz-raw://92b1baa49c66a46eda35c901d736b18b903557bda7241c1c50f3e3872d2a24ca\",\"dweb:/ipfs/QmXGBFgzzGFsuBTUnJj9Z2FcyY2K1fy7SrLfi95LSULEV8\"]},\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/FarmerRole.sol\":{\"keccak256\":\"0xc049a66a254fd8dee1fdc08283d931788219dfbc6f4c3db104093336a58f0419\",\"urls\":[\"bzz-raw://2b2e4252dc71054fc2aaceeeee06218375d8da73b7264ebe4a9be464191d94bf\",\"dweb:/ipfs/QmZQj2bGRBYZDhoJrJpGmPtYdkGKFBeZ9m8hkvhCU3aqip\"]},\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/RetailerRole.sol\":{\"keccak256\":\"0x8deda48d42bf07089fea731391a24a9087a16622d0cf8294e408394c7122974d\",\"urls\":[\"bzz-raw://42c4e315f5019527808314f6871d62d4588657e9ea1cb4a2384836a16acaabc9\",\"dweb:/ipfs/QmYQEQBSPTxggiKpwMMDXFafYKaDUbfQ6gmDZsC6ayFL93\"]},\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/SlaughterhouseRole.sol\":{\"keccak256\":\"0xa70ff29f3657aae29cf3f1bc5cbb3b1ffa0b52b91ac92da984ac082374d813db\",\"urls\":[\"bzz-raw://5742b26a236643746ecf9dbbc1331a5639100cae8ffdae2a3d764113d75d04b2\",\"dweb:/ipfs/QmTX5CJut67yxCp6KE8YXT8iN6vfAo6uojtxxBGaNW9rF6\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060bc8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060505760003560e01c806320189108146055578063435b7c5414605d57806349484acc146065578063a9a8cb5014606d578063e678994a146075575b600080fd5b605b607d565b005b6063607f565b005b606b6081565b005b60736083565b005b607b6085565b005b565b565b565b565b56fea265627a7a7231582067a21d59e74fc750c8587877db913aad2edb0fbf04c0013e07545c9e0fbe70b064736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060505760003560e01c806320189108146055578063435b7c5414605d57806349484acc146065578063a9a8cb5014606d578063e678994a146075575b600080fd5b605b607d565b005b6063607f565b005b606b6081565b005b60736083565b005b607b6085565b005b565b565b565b565b56fea265627a7a7231582067a21d59e74fc750c8587877db913aad2edb0fbf04c0013e07545c9e0fbe70b064736f6c63430005100032",
+  "sourceMap": "177:132:1:-;;;283:23;8:9:-1;5:2;;;30:1;27;20:12;5:2;283:23:1;177:132;;;;;;",
+  "deployedSourceMap": "177:132:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;177:132:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;55:44:3;;;:::i;:::-;;54:43:2;;;:::i;:::-;;::5;;;:::i;:::-;;60:49:6;;;:::i;:::-;;52:41:4;;;:::i;:::-;;55:44:3;:::o;54:43:2:-;:::o;::5:-;:::o;60:49:6:-;:::o;52:41:4:-;:::o",
+  "source": "pragma solidity ^0.5.16;\n\nimport \"./FarmerRole.sol\";\nimport \"./RetailerRole.sol\";\nimport \"./DelivererRole.sol\";\nimport \"./ConsumerRole.sol\";\nimport \"./SlaughterhouseRole.sol\";\n\ncontract AccessControl is FarmerRole, RetailerRole, DelivererRole, ConsumerRole, SlaughterhouseRole {\n    constructor() public {}\n\n}\n",
+  "sourcePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/AccessControl.sol",
+  "ast": {
+    "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/AccessControl.sol",
+    "exportedSymbols": {
+      "AccessControl": [
+        54
+      ]
+    },
+    "id": 55,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/FarmerRole.sol",
+        "file": "./FarmerRole.sol",
+        "id": 35,
+        "nodeType": "ImportDirective",
+        "scope": 55,
+        "sourceUnit": 76,
+        "src": "26:26:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/RetailerRole.sol",
+        "file": "./RetailerRole.sol",
+        "id": 36,
+        "nodeType": "ImportDirective",
+        "scope": 55,
+        "sourceUnit": 83,
+        "src": "53:28:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/DelivererRole.sol",
+        "file": "./DelivererRole.sol",
+        "id": 37,
+        "nodeType": "ImportDirective",
+        "scope": 55,
+        "sourceUnit": 69,
+        "src": "82:29:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/ConsumerRole.sol",
+        "file": "./ConsumerRole.sol",
+        "id": 38,
+        "nodeType": "ImportDirective",
+        "scope": 55,
+        "sourceUnit": 62,
+        "src": "112:28:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/SlaughterhouseRole.sol",
+        "file": "./SlaughterhouseRole.sol",
+        "id": 39,
+        "nodeType": "ImportDirective",
+        "scope": 55,
+        "sourceUnit": 90,
+        "src": "141:34:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 40,
+              "name": "FarmerRole",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 75,
+              "src": "203:10:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_FarmerRole_$75",
+                "typeString": "contract FarmerRole"
+              }
+            },
+            "id": 41,
+            "nodeType": "InheritanceSpecifier",
+            "src": "203:10:1"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 42,
+              "name": "RetailerRole",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 82,
+              "src": "215:12:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_RetailerRole_$82",
+                "typeString": "contract RetailerRole"
+              }
+            },
+            "id": 43,
+            "nodeType": "InheritanceSpecifier",
+            "src": "215:12:1"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 44,
+              "name": "DelivererRole",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 68,
+              "src": "229:13:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_DelivererRole_$68",
+                "typeString": "contract DelivererRole"
+              }
+            },
+            "id": 45,
+            "nodeType": "InheritanceSpecifier",
+            "src": "229:13:1"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 46,
+              "name": "ConsumerRole",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 61,
+              "src": "244:12:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ConsumerRole_$61",
+                "typeString": "contract ConsumerRole"
+              }
+            },
+            "id": 47,
+            "nodeType": "InheritanceSpecifier",
+            "src": "244:12:1"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 48,
+              "name": "SlaughterhouseRole",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 89,
+              "src": "258:18:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_SlaughterhouseRole_$89",
+                "typeString": "contract SlaughterhouseRole"
+              }
+            },
+            "id": 49,
+            "nodeType": "InheritanceSpecifier",
+            "src": "258:18:1"
+          }
+        ],
+        "contractDependencies": [
+          61,
+          68,
+          75,
+          82,
+          89
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 54,
+        "linearizedBaseContracts": [
+          54,
+          89,
+          61,
+          68,
+          82,
+          75
+        ],
+        "name": "AccessControl",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 52,
+              "nodeType": "Block",
+              "src": "304:2:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 53,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 50,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "294:2:1"
+            },
+            "returnParameters": {
+              "id": 51,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "304:0:1"
+            },
+            "scope": 54,
+            "src": "283:23:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 55,
+        "src": "177:132:1"
+      }
+    ],
+    "src": "0:310:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/AccessControl.sol",
+      "exportedSymbols": {
+        "AccessControl": [
+          54
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".16"
+          ]
+        },
+        "id": 34,
+        "name": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 76,
+          "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/FarmerRole.sol",
+          "file": "./FarmerRole.sol",
+          "scope": 55,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 35,
+        "name": "ImportDirective",
+        "src": "26:26:1"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 83,
+          "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/RetailerRole.sol",
+          "file": "./RetailerRole.sol",
+          "scope": 55,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 36,
+        "name": "ImportDirective",
+        "src": "53:28:1"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 69,
+          "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/DelivererRole.sol",
+          "file": "./DelivererRole.sol",
+          "scope": 55,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 37,
+        "name": "ImportDirective",
+        "src": "82:29:1"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 62,
+          "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/ConsumerRole.sol",
+          "file": "./ConsumerRole.sol",
+          "scope": 55,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 38,
+        "name": "ImportDirective",
+        "src": "112:28:1"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 90,
+          "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/SlaughterhouseRole.sol",
+          "file": "./SlaughterhouseRole.sol",
+          "scope": 55,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 39,
+        "name": "ImportDirective",
+        "src": "141:34:1"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            61,
+            68,
+            75,
+            82,
+            89
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            54,
+            89,
+            61,
+            68,
+            82,
+            75
+          ],
+          "name": "AccessControl",
+          "scope": 55
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "FarmerRole",
+                  "referencedDeclaration": 75,
+                  "type": "contract FarmerRole"
+                },
+                "id": 40,
+                "name": "UserDefinedTypeName",
+                "src": "203:10:1"
+              }
+            ],
+            "id": 41,
+            "name": "InheritanceSpecifier",
+            "src": "203:10:1"
+          },
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "RetailerRole",
+                  "referencedDeclaration": 82,
+                  "type": "contract RetailerRole"
+                },
+                "id": 42,
+                "name": "UserDefinedTypeName",
+                "src": "215:12:1"
+              }
+            ],
+            "id": 43,
+            "name": "InheritanceSpecifier",
+            "src": "215:12:1"
+          },
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "DelivererRole",
+                  "referencedDeclaration": 68,
+                  "type": "contract DelivererRole"
+                },
+                "id": 44,
+                "name": "UserDefinedTypeName",
+                "src": "229:13:1"
+              }
+            ],
+            "id": 45,
+            "name": "InheritanceSpecifier",
+            "src": "229:13:1"
+          },
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "ConsumerRole",
+                  "referencedDeclaration": 61,
+                  "type": "contract ConsumerRole"
+                },
+                "id": 46,
+                "name": "UserDefinedTypeName",
+                "src": "244:12:1"
+              }
+            ],
+            "id": 47,
+            "name": "InheritanceSpecifier",
+            "src": "244:12:1"
+          },
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "SlaughterhouseRole",
+                  "referencedDeclaration": 89,
+                  "type": "contract SlaughterhouseRole"
+                },
+                "id": 48,
+                "name": "UserDefinedTypeName",
+                "src": "258:18:1"
+              }
+            ],
+            "id": 49,
+            "name": "InheritanceSpecifier",
+            "src": "258:18:1"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 54,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 50,
+                "name": "ParameterList",
+                "src": "294:2:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 51,
+                "name": "ParameterList",
+                "src": "304:0:1"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 52,
+                "name": "Block",
+                "src": "304:2:1"
+              }
+            ],
+            "id": 53,
+            "name": "FunctionDefinition",
+            "src": "283:23:1"
+          }
+        ],
+        "id": 54,
+        "name": "ContractDefinition",
+        "src": "177:132:1"
+      }
+    ],
+    "id": 55,
+    "name": "SourceUnit",
+    "src": "0:310:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-11-14T19:35:23.383Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

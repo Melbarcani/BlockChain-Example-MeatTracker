@@ -1,7 +1,7 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.5.16;
 
 contract DelivererRole {
-    function DelivererRole(){
+    function CreateDelivererRole()public{
 
     }
 }

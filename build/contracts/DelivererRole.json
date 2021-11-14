@@ -1,0 +1,212 @@
+{
+  "contractName": "DelivererRole",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "CreateDelivererRole",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"CreateDelivererRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/DelivererRole.sol\":\"DelivererRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/DelivererRole.sol\":{\"keccak256\":\"0x5fa0211f8e3911e81d0ada054b1c6c6726e40f992a53ac978453966cd4507024\",\"urls\":[\"bzz-raw://92b1baa49c66a46eda35c901d736b18b903557bda7241c1c50f3e3872d2a24ca\",\"dweb:/ipfs/QmXGBFgzzGFsuBTUnJj9Z2FcyY2K1fy7SrLfi95LSULEV8\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50606c80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80632018910814602d575b600080fd5b60336035565b005b56fea265627a7a723158204f73725db616d58788689322b97bb487e0830a28aeb5cbcd64fe6aec63ead2e564736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80632018910814602d575b600080fd5b60336035565b005b56fea265627a7a723158204f73725db616d58788689322b97bb487e0830a28aeb5cbcd64fe6aec63ead2e564736f6c63430005100032",
+  "sourceMap": "26:75:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:75:3;;;;;;;",
+  "deployedSourceMap": "26:75:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:75:3;;;;;;;;;;;;;;;;;;;55:44;;;:::i;:::-;;;:::o",
+  "source": "pragma solidity ^0.5.16;\n\ncontract DelivererRole {\n    function CreateDelivererRole()public{\n\n    }\n}\n",
+  "sourcePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/DelivererRole.sol",
+  "ast": {
+    "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/DelivererRole.sol",
+    "exportedSymbols": {
+      "DelivererRole": [
+        68
+      ]
+    },
+    "id": 69,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 63,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 68,
+        "linearizedBaseContracts": [
+          68
+        ],
+        "name": "DelivererRole",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 66,
+              "nodeType": "Block",
+              "src": "91:8:3",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 67,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "CreateDelivererRole",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 64,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "83:2:3"
+            },
+            "returnParameters": {
+              "id": 65,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "91:0:3"
+            },
+            "scope": 68,
+            "src": "55:44:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 69,
+        "src": "26:75:3"
+      }
+    ],
+    "src": "0:102:3"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/DelivererRole.sol",
+      "exportedSymbols": {
+        "DelivererRole": [
+          68
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".16"
+          ]
+        },
+        "id": 63,
+        "name": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            68
+          ],
+          "name": "DelivererRole",
+          "scope": 69
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "CreateDelivererRole",
+              "scope": 68,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 64,
+                "name": "ParameterList",
+                "src": "83:2:3"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 65,
+                "name": "ParameterList",
+                "src": "91:0:3"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 66,
+                "name": "Block",
+                "src": "91:8:3"
+              }
+            ],
+            "id": 67,
+            "name": "FunctionDefinition",
+            "src": "55:44:3"
+          }
+        ],
+        "id": 68,
+        "name": "ContractDefinition",
+        "src": "26:75:3"
+      }
+    ],
+    "id": 69,
+    "name": "SourceUnit",
+    "src": "0:102:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-11-14T19:35:23.384Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

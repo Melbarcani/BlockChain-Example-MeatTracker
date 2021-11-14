@@ -1,4 +1,4 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.5.16;
 
 
 contract ProductFactory {
@@ -15,7 +15,7 @@ contract ProductFactory {
 
     Animal[] public animals;
 
-    function createAnimal(string origin, uint256 birthDate, string matricule, string gender, string comment) public {
+    function createAnimal(string memory origin, uint256 birthDate, string memory matricule, string memory gender, string memory comment) public {
         uint id = animals.push(Animal(origin, birthDate, matricule, gender, comment));
         emit NewAnimal(id, matricule);
     }
