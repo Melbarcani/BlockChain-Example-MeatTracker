@@ -1,7 +1,11 @@
 pragma solidity ^0.5.16;
 
-contract FarmerRole {
-    function CreateFarmerRole()public{
+import "./Roles.sol";
 
-    }
+contract FarmerRole {
+    using Roles for Roles.Role;
+
+
+
+
 }
