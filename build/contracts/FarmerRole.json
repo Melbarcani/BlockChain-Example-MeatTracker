@@ -11,15 +11,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"CreateFarmerRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/FarmerRole.sol\":\"FarmerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/FarmerRole.sol\":{\"keccak256\":\"0xc049a66a254fd8dee1fdc08283d931788219dfbc6f4c3db104093336a58f0419\",\"urls\":[\"bzz-raw://2b2e4252dc71054fc2aaceeeee06218375d8da73b7264ebe4a9be464191d94bf\",\"dweb:/ipfs/QmZQj2bGRBYZDhoJrJpGmPtYdkGKFBeZ9m8hkvhCU3aqip\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50606c80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063e678994a14602d575b600080fd5b60336035565b005b56fea265627a7a72315820f34657459e587511a4e7c88e2881a576312b930056be3d839ff01ae731c0628764736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063e678994a14602d575b600080fd5b60336035565b005b56fea265627a7a72315820f34657459e587511a4e7c88e2881a576312b930056be3d839ff01ae731c0628764736f6c63430005100032",
-  "sourceMap": "26:69:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:69:4;;;;;;;",
-  "deployedSourceMap": "26:69:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:69:4;;;;;;;;;;;;;;;;;;;52:41;;;:::i;:::-;;;:::o",
-  "source": "pragma solidity ^0.5.16;\n\ncontract FarmerRole {\n    function CreateFarmerRole()public{\n\n    }\n}\n",
-  "sourcePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/FarmerRole.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"CreateFarmerRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/meatAccessControl/FarmerRole.sol\":\"FarmerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/meatAccessControl/FarmerRole.sol\":{\"keccak256\":\"0x1bbc6605d2e5446fab0367a85823692c0adcfb3c94662eacb9b95cc3c7ecbd76\",\"urls\":[\"bzz-raw://4182761e4b1e55f02457986382921737a574fcffe46b94596e2362ce1d534636\",\"dweb:/ipfs/QmRhHwjv2cP1eoVVF76rPWzXJh4Le2CuXq5CnRP8TwPAmq\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50606c80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063e678994a14602d575b600080fd5b60336035565b005b56fea265627a7a72315820bd37ed7cd9beb79b9f3eefb6d4a64efae952237ee9cdd5cd524684a8e6e9ebae64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063e678994a14602d575b600080fd5b60336035565b005b56fea265627a7a72315820bd37ed7cd9beb79b9f3eefb6d4a64efae952237ee9cdd5cd524684a8e6e9ebae64736f6c63430005100032",
+  "sourceMap": "28:73:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:73:4;;;;;;;",
+  "deployedSourceMap": "28:73:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:73:4;;;;;;;;;;;;;;;;;;;55:43;;;:::i;:::-;;;:::o",
+  "source": "pragma solidity ^0.5.16;\r\n\r\ncontract FarmerRole {\r\n    function CreateFarmerRole()public{\r\n\r\n    }\r\n}\r\n",
+  "sourcePath": "C:\\Users\\Elbar\\Documents\\Cours\\CoursCourant\\FYC\\BlockChain-Example-MeatTrucker\\contracts\\meatAccessControl\\FarmerRole.sol",
   "ast": {
-    "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/FarmerRole.sol",
+    "absolutePath": "project:/contracts/meatAccessControl/FarmerRole.sol",
     "exportedSymbols": {
       "FarmerRole": [
         75
@@ -56,7 +56,7 @@
             "body": {
               "id": 73,
               "nodeType": "Block",
-              "src": "85:8:4",
+              "src": "88:10:4",
               "statements": []
             },
             "documentation": null,
@@ -70,30 +70,30 @@
               "id": 71,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "77:2:4"
+              "src": "80:2:4"
             },
             "returnParameters": {
               "id": 72,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "85:0:4"
+              "src": "88:0:4"
             },
             "scope": 75,
-            "src": "52:41:4",
+            "src": "55:43:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 76,
-        "src": "26:69:4"
+        "src": "28:73:4"
       }
     ],
-    "src": "0:96:4"
+    "src": "0:103:4"
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/FarmerRole.sol",
+      "absolutePath": "project:/contracts/meatAccessControl/FarmerRole.sol",
       "exportedSymbols": {
         "FarmerRole": [
           75
@@ -157,7 +157,7 @@
                 "children": [],
                 "id": 71,
                 "name": "ParameterList",
-                "src": "77:2:4"
+                "src": "80:2:4"
               },
               {
                 "attributes": {
@@ -168,7 +168,7 @@
                 "children": [],
                 "id": 72,
                 "name": "ParameterList",
-                "src": "85:0:4"
+                "src": "88:0:4"
               },
               {
                 "attributes": {
@@ -179,30 +179,30 @@
                 "children": [],
                 "id": 73,
                 "name": "Block",
-                "src": "85:8:4"
+                "src": "88:10:4"
               }
             ],
             "id": 74,
             "name": "FunctionDefinition",
-            "src": "52:41:4"
+            "src": "55:43:4"
           }
         ],
         "id": 75,
         "name": "ContractDefinition",
-        "src": "26:69:4"
+        "src": "28:73:4"
       }
     ],
     "id": 76,
     "name": "SourceUnit",
-    "src": "0:96:4"
+    "src": "0:103:4"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.4",
-  "updatedAt": "2021-11-14T19:35:23.384Z",
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-11-15T09:43:47.779Z",
   "devdoc": {
     "methods": {}
   },

@@ -11,15 +11,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"CreateSlaughterhouseRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/SlaughterhouseRole.sol\":\"SlaughterhouseRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/SlaughterhouseRole.sol\":{\"keccak256\":\"0xa70ff29f3657aae29cf3f1bc5cbb3b1ffa0b52b91ac92da984ac082374d813db\",\"urls\":[\"bzz-raw://5742b26a236643746ecf9dbbc1331a5639100cae8ffdae2a3d764113d75d04b2\",\"dweb:/ipfs/QmTX5CJut67yxCp6KE8YXT8iN6vfAo6uojtxxBGaNW9rF6\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50606c80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063a9a8cb5014602d575b600080fd5b60336035565b005b56fea265627a7a7231582084e4370ff56e44d53e0295ec865a0fbcf6876677628e2aa136e5fddd2214b5a064736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063a9a8cb5014602d575b600080fd5b60336035565b005b56fea265627a7a7231582084e4370ff56e44d53e0295ec865a0fbcf6876677628e2aa136e5fddd2214b5a064736f6c63430005100032",
-  "sourceMap": "26:85:6:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:85:6;;;;;;;",
-  "deployedSourceMap": "26:85:6:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:85:6;;;;;;;;;;;;;;;;;;;60:49;;;:::i;:::-;;;:::o",
-  "source": "pragma solidity ^0.5.16;\n\ncontract SlaughterhouseRole {\n    function CreateSlaughterhouseRole()public{\n\n    }\n}\n",
-  "sourcePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/SlaughterhouseRole.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"CreateSlaughterhouseRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/meatAccessControl/SlaughterhouseRole.sol\":\"SlaughterhouseRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/meatAccessControl/SlaughterhouseRole.sol\":{\"keccak256\":\"0x089595f108765fd0583032f9a95c2e0fbd3e0fcb8b65fc16885de2a2612452ac\",\"urls\":[\"bzz-raw://97f1f2ee98ae5e189b67ba3929d32575c071d36ff021057e7e29cc2494eca608\",\"dweb:/ipfs/QmWHDpYfFTtdkpsHn4YJEtZMZwCNGQxFDJeth4aRiNFeYC\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50606c80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063a9a8cb5014602d575b600080fd5b60336035565b005b56fea265627a7a72315820ec2f20b449bf37362f125b53fe1f1a12546290b4a54dd1ac8ac03d68a0e49b3164736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063a9a8cb5014602d575b600080fd5b60336035565b005b56fea265627a7a72315820ec2f20b449bf37362f125b53fe1f1a12546290b4a54dd1ac8ac03d68a0e49b3164736f6c63430005100032",
+  "sourceMap": "28:89:6:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:89:6;;;;;;;",
+  "deployedSourceMap": "28:89:6:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:89:6;;;;;;;;;;;;;;;;;;;63:51;;;:::i;:::-;;;:::o",
+  "source": "pragma solidity ^0.5.16;\r\n\r\ncontract SlaughterhouseRole {\r\n    function CreateSlaughterhouseRole()public{\r\n\r\n    }\r\n}\r\n",
+  "sourcePath": "C:\\Users\\Elbar\\Documents\\Cours\\CoursCourant\\FYC\\BlockChain-Example-MeatTrucker\\contracts\\meatAccessControl\\SlaughterhouseRole.sol",
   "ast": {
-    "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/SlaughterhouseRole.sol",
+    "absolutePath": "project:/contracts/meatAccessControl/SlaughterhouseRole.sol",
     "exportedSymbols": {
       "SlaughterhouseRole": [
         89
@@ -56,7 +56,7 @@
             "body": {
               "id": 87,
               "nodeType": "Block",
-              "src": "101:8:6",
+              "src": "104:10:6",
               "statements": []
             },
             "documentation": null,
@@ -70,30 +70,30 @@
               "id": 85,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "93:2:6"
+              "src": "96:2:6"
             },
             "returnParameters": {
               "id": 86,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "101:0:6"
+              "src": "104:0:6"
             },
             "scope": 89,
-            "src": "60:49:6",
+            "src": "63:51:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 90,
-        "src": "26:85:6"
+        "src": "28:89:6"
       }
     ],
-    "src": "0:112:6"
+    "src": "0:119:6"
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/SlaughterhouseRole.sol",
+      "absolutePath": "project:/contracts/meatAccessControl/SlaughterhouseRole.sol",
       "exportedSymbols": {
         "SlaughterhouseRole": [
           89
@@ -157,7 +157,7 @@
                 "children": [],
                 "id": 85,
                 "name": "ParameterList",
-                "src": "93:2:6"
+                "src": "96:2:6"
               },
               {
                 "attributes": {
@@ -168,7 +168,7 @@
                 "children": [],
                 "id": 86,
                 "name": "ParameterList",
-                "src": "101:0:6"
+                "src": "104:0:6"
               },
               {
                 "attributes": {
@@ -179,30 +179,30 @@
                 "children": [],
                 "id": 87,
                 "name": "Block",
-                "src": "101:8:6"
+                "src": "104:10:6"
               }
             ],
             "id": 88,
             "name": "FunctionDefinition",
-            "src": "60:49:6"
+            "src": "63:51:6"
           }
         ],
         "id": 89,
         "name": "ContractDefinition",
-        "src": "26:85:6"
+        "src": "28:89:6"
       }
     ],
     "id": 90,
     "name": "SourceUnit",
-    "src": "0:112:6"
+    "src": "0:119:6"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.4",
-  "updatedAt": "2021-11-14T19:35:23.385Z",
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-11-15T09:43:47.781Z",
   "devdoc": {
     "methods": {}
   },

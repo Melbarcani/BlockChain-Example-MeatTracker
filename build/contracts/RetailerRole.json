@@ -11,15 +11,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"CreateRetailerRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/RetailerRole.sol\":\"RetailerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/RetailerRole.sol\":{\"keccak256\":\"0x8deda48d42bf07089fea731391a24a9087a16622d0cf8294e408394c7122974d\",\"urls\":[\"bzz-raw://42c4e315f5019527808314f6871d62d4588657e9ea1cb4a2384836a16acaabc9\",\"dweb:/ipfs/QmYQEQBSPTxggiKpwMMDXFafYKaDUbfQ6gmDZsC6ayFL93\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50606c80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806349484acc14602d575b600080fd5b60336035565b005b56fea265627a7a72315820397cacf3c46f7cc54733fb671ee4054bb48dba9fb6af931e17c111b9dc97d9e964736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806349484acc14602d575b600080fd5b60336035565b005b56fea265627a7a72315820397cacf3c46f7cc54733fb671ee4054bb48dba9fb6af931e17c111b9dc97d9e964736f6c63430005100032",
-  "sourceMap": "26:73:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:73:5;;;;;;;",
-  "deployedSourceMap": "26:73:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:73:5;;;;;;;;;;;;;;;;;;;54:43;;;:::i;:::-;;;:::o",
-  "source": "pragma solidity ^0.5.16;\n\ncontract RetailerRole {\n    function CreateRetailerRole()public{\n\n    }\n}\n",
-  "sourcePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/RetailerRole.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"CreateRetailerRole\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/meatAccessControl/RetailerRole.sol\":\"RetailerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/meatAccessControl/RetailerRole.sol\":{\"keccak256\":\"0xc822d1521341cf3f618af8d937e56e4e8b69bb81d0f1a3a7e736496758a35994\",\"urls\":[\"bzz-raw://699f5d1c828679870a7a084706eacf46d86551546faeedea81c98d81de860b76\",\"dweb:/ipfs/QmQTvsZt6MPsSjoButdE6ACU1X2gKuHRdyb8u66jFugwww\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50606c80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806349484acc14602d575b600080fd5b60336035565b005b56fea265627a7a7231582080f144b631949124916fc794bf3aabb8383c472fd63b670f0801c32869aa70c364736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806349484acc14602d575b600080fd5b60336035565b005b56fea265627a7a7231582080f144b631949124916fc794bf3aabb8383c472fd63b670f0801c32869aa70c364736f6c63430005100032",
+  "sourceMap": "28:77:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:77:5;;;;;;;",
+  "deployedSourceMap": "28:77:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:77:5;;;;;;;;;;;;;;;;;;;57:45;;;:::i;:::-;;;:::o",
+  "source": "pragma solidity ^0.5.16;\r\n\r\ncontract RetailerRole {\r\n    function CreateRetailerRole()public{\r\n\r\n    }\r\n}\r\n",
+  "sourcePath": "C:\\Users\\Elbar\\Documents\\Cours\\CoursCourant\\FYC\\BlockChain-Example-MeatTrucker\\contracts\\meatAccessControl\\RetailerRole.sol",
   "ast": {
-    "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/RetailerRole.sol",
+    "absolutePath": "project:/contracts/meatAccessControl/RetailerRole.sol",
     "exportedSymbols": {
       "RetailerRole": [
         82
@@ -56,7 +56,7 @@
             "body": {
               "id": 80,
               "nodeType": "Block",
-              "src": "89:8:5",
+              "src": "92:10:5",
               "statements": []
             },
             "documentation": null,
@@ -70,30 +70,30 @@
               "id": 78,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "81:2:5"
+              "src": "84:2:5"
             },
             "returnParameters": {
               "id": 79,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "89:0:5"
+              "src": "92:0:5"
             },
             "scope": 82,
-            "src": "54:43:5",
+            "src": "57:45:5",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 83,
-        "src": "26:73:5"
+        "src": "28:77:5"
       }
     ],
-    "src": "0:100:5"
+    "src": "0:107:5"
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/luksss/code/BlockChain-Example-MeatTrucker/contracts/meatAccessControl/RetailerRole.sol",
+      "absolutePath": "project:/contracts/meatAccessControl/RetailerRole.sol",
       "exportedSymbols": {
         "RetailerRole": [
           82
@@ -157,7 +157,7 @@
                 "children": [],
                 "id": 78,
                 "name": "ParameterList",
-                "src": "81:2:5"
+                "src": "84:2:5"
               },
               {
                 "attributes": {
@@ -168,7 +168,7 @@
                 "children": [],
                 "id": 79,
                 "name": "ParameterList",
-                "src": "89:0:5"
+                "src": "92:0:5"
               },
               {
                 "attributes": {
@@ -179,30 +179,30 @@
                 "children": [],
                 "id": 80,
                 "name": "Block",
-                "src": "89:8:5"
+                "src": "92:10:5"
               }
             ],
             "id": 81,
             "name": "FunctionDefinition",
-            "src": "54:43:5"
+            "src": "57:45:5"
           }
         ],
         "id": 82,
         "name": "ContractDefinition",
-        "src": "26:73:5"
+        "src": "28:77:5"
       }
     ],
     "id": 83,
     "name": "SourceUnit",
-    "src": "0:100:5"
+    "src": "0:107:5"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.4",
-  "updatedAt": "2021-11-14T19:35:23.384Z",
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-11-15T09:43:47.780Z",
   "devdoc": {
     "methods": {}
   },
