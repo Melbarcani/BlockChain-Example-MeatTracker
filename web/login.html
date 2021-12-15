@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>MeetTracker front-end</title>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="web3.min.js"></script>
+  </head>
+  <body>
+    <div id="txStatus"></div>
+    <div id="meet"></div>
+
+    <script>
+      var meetTracker;
+      var userAccount;
+
+      function startApp() {
+        var farmerAdress = "YOUR_CONTRACT_ADDRESS";
+        meetTracker = new web3js.eth.Contract(meetTrackerABI, meetTrackerAddress);
+
+        var accountInterval = setInterval(function() {
+          // Check if account has changed
+          if (web3.eth.accounts[0] !== userAccount) {
+            userAccount = web3.eth.accounts[0];
+            // Call a function to update the UI with the new account
+            getAnimals(userAccount)
+            .then(displayAnimals);
+          }
+        }, 100);
+
+        // Start here
+      }
+
+      function displayAnimals(ids) {
+        $("#animals").empty();
+        for (id of ids) {
+          // Look up zombie details from our contract. Returns a `zombie` object
+          getAnimalDetails(id)
+          .then(function(animal) {
+            // Using ES6's "template literals" to inject variables into the HTML.
+            // Append each one to our #zombies div
+            $("#animal").append(`<div   ="animal">
+              <ul>
+                <li>Name: ${animal.name}</li>
+              </ul>
+            </div>`);
+          });
+        }
+      }
+
+      function getAnimalDetails(id) {
+        return meetTracker.methods.getAnimalDetails(id).call()
+      }
+      
+      function getAnimals(owner) {
+        return meetTracker.methods.getAnimals(owner).call()
+      }
+
+      window.addEventListener('load', function() {
+
+        // Checking if Web3 has been injected by the browser (Mist/MetaMask)
+        if (typeof web3 !== 'undefined') {
+          // Use Mist/MetaMask's provider
+          web3js = new Web3(web3.currentProvider);
+        } else {
+          // Handle the case where the user doesn't have Metamask installed
+          // Probably show them a message prompting them to install Metamask
+        }
+
+        // Now you can start your app & access web3 freely:
+        startApp()
+
+      })
+    </script>
+  </body>
+</html>
